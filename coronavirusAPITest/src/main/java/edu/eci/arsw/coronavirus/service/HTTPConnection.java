@@ -2,6 +2,7 @@ package edu.eci.arsw.coronavirus.service;
 
 import com.mashape.unirest.http.HttpResponse;
 import com.mashape.unirest.http.Unirest;
+import org.json.JSONArray;
 import org.json.JSONObject;
 import org.springframework.stereotype.Service;
 
@@ -53,13 +54,15 @@ public class HTTPConnection {
      * @return
      * @throws CoronavirusException
      */
-    public JSONObject getCoordinates(String name) throws CoronavirusException {
+    public JSONArray getCoordinates(String name) throws CoronavirusException {
         try {
-            HttpResponse<String> response = Unirest.get("https://rapidapi.p.rapidapi.com/name/"+name)
+            HttpResponse<String> response = Unirest.get("https://rapidapi.p.rapidapi.com/name/" + name)
                     .header("x-rapidapi-host", "restcountries-v1.p.rapidapi.com")
                     .header("x-rapidapi-key", "361b123075msh74943d4e9748c13p1053c6jsn7c3d22d2946a")
                     .asString();
-            return  new JSONObject(response.getBody());
+            String object = new JSONArray(response.getBody()).get(0).toString();
+            JSONObject jsonObject = new JSONObject(object);
+            return new JSONArray(jsonObject.get("latlng").toString());
         }catch (Exception e){
             throw new CoronavirusException(CoronavirusException.CONNECTION_FAILED);
         }

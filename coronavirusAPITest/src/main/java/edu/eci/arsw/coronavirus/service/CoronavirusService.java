@@ -60,7 +60,10 @@ public class CoronavirusService {
      * @throws CoronavirusException
      */
     public JSONObject getCoordinatesByName(String name) throws CoronavirusException {
-        JSONObject jsonObject = httpConnection.getCoordinates(name);
-        return jsonObject;
+        JSONArray jsonObject = httpConnection.getCoordinates(name);
+        int lat = jsonObject.getInt(0);
+        int lon = jsonObject.getInt(1);
+        JSONObject jsonObject1 = new JSONObject("{\"latitude\":\""+lat+"\",\"longitude\":\""+lon+"\"}");
+        return jsonObject1;
     }
 }
