@@ -7,4 +7,24 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="CoronavirusAplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.eci.arsw.coronavirus.CoronavirusAplication" />
+      <module name="coronavirusAPITest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.eci.arsw.coronavirus.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CoronavirusAplication" />
+      </list>
+    </recent_temporary>
+  </component>
 </project>

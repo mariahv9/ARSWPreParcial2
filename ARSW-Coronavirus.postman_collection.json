@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "cab5329a-f298-4111-80cf-af839997e506",
+		"_postman_id": "efb6d750-4330-476d-8f60-5572a661237b",
 		"name": "ARSW-Coronavirus",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -73,6 +73,28 @@
 							"value": "Canada"
 						}
 					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "all",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "apicord",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
 				}
 			},
 			"response": []
