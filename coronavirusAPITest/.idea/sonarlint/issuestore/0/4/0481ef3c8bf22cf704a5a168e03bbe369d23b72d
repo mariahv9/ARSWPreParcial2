@@ -1,0 +1,15 @@
+
+e
+java:S4488"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(þâ”î8Å˜ãœÔ.
+H
+java:S1452"&Remove usage of generic wildcard type.(ÄÑõšúÿÿÿÿ8Å˜ãœÔ.
+H
+java:S1452<"&Remove usage of generic wildcard type.(ÂÁØ¢ýÿÿÿÿ8–ÃÅ¾Ô.
+j
+java:S4488+"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(ÈÕì©üÿÿÿÿ8Å˜ãœÔ.
+e
+java:S4488;"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(ÙÓšÆ8–ÃÅ¾Ô.
+H
+java:S1452,"&Remove usage of generic wildcard type.(´ËÄ¹úÿÿÿÿ8Å˜ãœÔ.
+o
+java:S1128"RRemove this unused import 'edu.eci.arsw.coronavirus.service.CoronavirusException'.(ô†¥8‚¾êœÔ.

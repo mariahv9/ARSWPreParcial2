@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"coronavirusAPITest"},{"l":"edu.eci.arsw.coronavirus"},{"l":"edu.eci.arsw.coronavirus.api"},{"l":"edu.eci.arsw.coronavirus.model"},{"l":"edu.eci.arsw.coronavirus.service"}]

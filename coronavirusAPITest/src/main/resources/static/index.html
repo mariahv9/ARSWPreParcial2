@@ -1,0 +1,79 @@
+<html lang="en">
+<head>
+    <title>Coronavirus Stats</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="/app.js"></script>
+    <script src="/place.js"></script>
+    <script src="/api.js"></script>
+    <style>
+     .grid-container {
+        display: grid;
+        grid-column-gap: 60px;
+        grid-template-columns: auto auto;
+        text-indent:30px;}
+    </style>
+</head>
+<body onload="app.showAll" style='background-image: url("back.gif"); background-size: cover; font-family:courier new;'>
+    <header>
+        <h1>COVID-19</h1>
+    </header>
+    <h3 id="information"> Select a country for more information</h3>
+    <style>
+        table {table-layout: fixed; width:600px; height: 40;}
+        table, th, td {border: 1px solid white; border-collapse: collapse;}
+        th, td {padding: 5px; text-align: center; font-size:10pt;}
+        #tableCountries tr:nth-child(even) {background-color: #ffffff;}
+        #tableCountries tr:nth-child(odd) {background-color: #ffe6f2;}
+        #tableCountries th {background-color: #990000;color: white;}
+        #tableSpecifications tr:nth-child(even) {background-color: #ffffff;}
+        #tableSpecifications tr:nth-child(odd) {background-color: #e6e6ff;}
+        #tableSpecifications th {background-color: #000066;color: white;}
+        #tableProvinces tr:nth-child(even) {background-color: #ffffff;}
+        #tableProvinces tr:nth-child(odd) {background-color: #fff5e6;}
+        #tableProvinces th {background-color: #cc6600;color: white;}
+    </style>
+
+    <div class="grid-container">
+        <div class="grid-item">
+            <table id="tableCountries">
+                <thread>
+                    <tr>
+                        <th scope="name">Country</th>
+                        <th scope="name">Deaths</th>
+                        <th scope="name">Infected</th>
+                        <th scope="name">Cured</th>
+                    </tr>
+                </thread>
+                <tbody id ="countries"></tbody>
+            </table>
+        </div>
+        <div class="grid-item">
+            <h2 id="country"></h2>
+            <table id="tableSpecifications">
+                <thread>
+                    <tr>
+                        <th scope="name">Name</th>
+                        <th scope="name">Birth Date</th>
+                    </tr>
+                </thread>
+                <tbody id ="specifications"></tbody>
+            </table>
+            <br><br><br><br>
+            <table id="tableProvinces">
+                <thread>
+                    <tr>
+                        <th scope="name">Region</th>
+                        <th scope="name">Deaths</th>
+                        <th scope="name">Infected</th>
+                        <th scope="name">Cured</th>
+                    </tr>
+                </thread>
+                <tbody id ="provinces"></tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</div>
+</html>

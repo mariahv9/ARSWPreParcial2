@@ -1,0 +1,18 @@
+
+U
+java:S3252'"3Use static access with "java.util.Map" for "Entry".(Ïáºñüÿÿÿÿ8‰é„Ô.
+]	java:S125Z"<This block of commented-out lines of code should be removed.(¯Ê€Ğúÿÿÿÿ8¦¸ØÂÔ.
+U
+java:S3252o"3Use static access with "java.util.Map" for "Entry".(Ïáºñüÿÿÿÿ8‰é„Ô.
+e
+java:S1192P"HDefine a constant instead of duplicating this literal "country" 5 times.(¨ã ÿ8‰é„Ô.
+d
+java:S1192S"GDefine a constant instead of duplicating this literal "deaths" 6 times.(‹àš¼8‰é„Ô.
+~
+java:S1488,"aImmediately return this expression instead of assigning it to the temporary variable "jsonArray".(ê©©æ8Øß´Ô.
+9
+java:S1643("Use a StringBuilder instead.(›ŞÆ8‰é„Ô.
+l
+java:S1192T"JDefine a constant instead of duplicating this literal "confirmed" 6 times.(œŸëëıÿÿÿÿ8‰é„Ô.
+g
+java:S1192U"JDefine a constant instead of duplicating this literal "recovered" 6 times.(®ÁÆÙ8‰é„Ô.
