@@ -1,9 +1,9 @@
 
-T
-java:S1444"7Make this "public static CONNECTION_FAILED" field final(¶®û¤8û“èœÔ.
-G
-java:S1165"*Make this "CONNECTION_FAILED" field final.(¶®û¤8û“èœÔ.
 z
 java:S1104"]Make CONNECTION_FAILED a static final constant or non-public and provide accessors if needed.(¶®û¤8û“èœÔ.
 y
 java:S3008"\Rename this field "CONNECTION_FAILED" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶®û¤8û“èœÔ.
+T
+java:S1444"7Make this "public static CONNECTION_FAILED" field final(¶®û¤8û“èœÔ.
+G
+java:S1165"*Make this "CONNECTION_FAILED" field final.(¶®û¤8û“èœÔ.
